@@ -15,7 +15,7 @@ class Block:
         self.block[5][6] = 1
         self.block[6][5] = 1
         self.block[6][6] = 1
-        #美しくない（修正したい)
+        #美しくない
         for y in range(board.HEIGHT):
             for x in range(board.WIDTH):
                 board.board[y][x] = board.board[y][x] + self.block[y][x]
