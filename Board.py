@@ -1,7 +1,4 @@
-# _*_ coding: shift-jis _*_
 class Board:
-    #HEIGHT = 23
-    #WIDTH = 13
     #初期化関数
     def __init__(self, height, width):
         self.HEIGHT = height
