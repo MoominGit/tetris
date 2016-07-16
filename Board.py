@@ -12,7 +12,6 @@ class Board:
                     self.board[y][x] = 2
                 if y == self.HEIGHT - 1:
                     self.board[y][x] = 2
-        print("init!")
 
     #ボード描画関数
     def DrawBoard(self):
